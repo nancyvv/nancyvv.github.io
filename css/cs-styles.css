@@ -1,0 +1,67 @@
+/* Custom css styles */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  color: #1a1a1a;
+}
+header,
+footer {
+  font-size: 14px;
+}
+a {
+  color: #ff5554;
+  text-decoration: none;
+}
+a:hover {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+.btn-primary {
+  background-color: #ff5554;
+  border: 3px solid #ff5554;
+  color: #ffffff;
+}
+.btn-primary:hover, a.btn-primary:hover {
+  color: #ff5554;
+  background-color: #ffffff;
+  border: 3px solid #ff5554;
+  text-decoration: none;
+}
+.cs-box {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.cs-heading {
+  color: #1a1a1a;
+  font-size: 85px;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+.cs-intro {
+  font-size: 16px;
+  background-image: linear-gradient(to right, rgb(255, 85, 84), rgb(248, 112, 111));
+  padding-top: 30px;
+  padding-bottom: 60px; 
+}
+.cs-section {
+  font-size: 16px;
+  padding-top: 45px;
+}
+.card-title {
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .cs-heading {
+    font-size: 75px;
+  }
+  .cs-box {
+    flex-direction: column;
+    width: 100%;
+  }
+}
